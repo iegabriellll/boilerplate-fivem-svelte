@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  border: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  font-style: normal;
+  margin: 0;
+  list-style: none;
+  outline: none;
+  user-select: none;
+  text-decoration: none;
+  transition: all 300ms ease-in;
+
+  font-weight: bold;
+  color: white;
+}
+
+button {
+    cursor: pointer;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1f2d42;
+    display: flex;
+}
